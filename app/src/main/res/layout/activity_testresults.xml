@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Report"
+        android:id="@+id/sendreport"
+        android:fontFamily="@font/ralewayregular"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sendreport"
+        android:id="@+id/uidlay1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="User Id : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/user_id"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/uidlay1"
+        android:id="@+id/uidlay2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="User Name : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/user_name"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/uidlay2"
+        android:background="@color/colorPrimary"
+        android:id="@+id/viewabovegrid"
+        android:layout_gravity="bottom"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/uidlay2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/uidlay3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Blood Pressure : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/blood_pressure"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" 120 /80"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/uidlay3"
+        android:id="@+id/uidlay5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Sugar Level : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/sugar_level"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" 140-200"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/uidlay5"
+        android:id="@+id/uidlay6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="ECG : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/ecg"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" 120"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="104dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/uidlay6"
+        android:id="@+id/uidlay7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Heart Rate : "
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" "
+            android:id="@+id/heart_rate"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" 60-100"
+            android:layout_marginLeft="49dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/ralewayregular"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
